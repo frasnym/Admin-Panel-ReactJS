@@ -12,6 +12,7 @@ export default function SignInPage() {
 	const [emailAddress, setEmailAddress] = useState("");
 	const [password, setPassword] = useState("");
 	const [rememberMe, setRememberMe] = useState(false);
+	console.log(rememberMe);
 
 	return (
 		<Layout>
