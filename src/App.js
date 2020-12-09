@@ -10,6 +10,7 @@ function App() {
 		<div className="App">
 			<Router>
 				<Switch>
+					<Route path="/" component={SignInPage} />
 					<Route path="/signin" component={SignInPage} />
 				</Switch>
 			</Router>
