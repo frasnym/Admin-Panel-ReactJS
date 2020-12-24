@@ -7,6 +7,7 @@ import logo from "../../../logo.svg";
 import Layout from "../../../components/Layout/Layout";
 import Input from "../../../components/UI/Input/Input";
 import Copyright from "../../../components/Copyright/Copyright";
+import { Link } from "react-router-dom";
 
 export default function SignInPage() {
 	const [emailAddress, setEmailAddress] = useState("");
@@ -42,7 +43,9 @@ export default function SignInPage() {
 						/>
 					</Col>
 					<Col className="text-end">
-						<Button variant="primary">Sign In</Button>
+						<Link to="/dashboard">
+							<Button variant="primary">Sign In</Button>
+						</Link>
 					</Col>
 				</Row>
 				<div class="d-grid gap-2 mb-5">
