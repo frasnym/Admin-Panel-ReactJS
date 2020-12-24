@@ -4,9 +4,9 @@ import { FaGoogle } from "react-icons/fa";
 
 import logo from "../../../logo.svg";
 
-import Layout from "../../../components/Layout";
-import Input from "../../../components/UI/Input";
-import Copyright from "../../../components/Copyright";
+import Layout from "../../../components/Layout/Layout";
+import Input from "../../../components/UI/Input/Input";
+import Copyright from "../../../components/Copyright/Copyright";
 
 export default function SignInPage() {
 	const [emailAddress, setEmailAddress] = useState("");
@@ -47,7 +47,7 @@ export default function SignInPage() {
 				</Row>
 				<div class="d-grid gap-2 mb-5">
 					<Button variant="danger">
-						<FaGoogle className="icon align-middle me-2" />
+						<FaGoogle className="mw-100 mh-100 align-middle me-2" />
 						<span className="align-middle">
 							Sign In with Google
 						</span>

@@ -1,5 +1,5 @@
 import React from "react";
-import Centerize from "../Centerize";
+import Centerize from "../Centerize/Centerize";
 
 export default function Layout(props) {
 	return (
